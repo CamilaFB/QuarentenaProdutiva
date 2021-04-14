@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+	<meta charset="utf-8">
+	<title>Login</title>
+
+
+
+
+</head>
+
+<body>
+
+	<h1>Login</h1>
+
+	<form>
+	<!--
+	"form" significa formulário
+	"input" significa entrada
+	"type" significa o tipo de componente 
+	"name" define a forma de recuperar os dados escritos pelo usuario
+	"text" para colocar uma caixa de texto
+	"password" é uma entrada de texto mas é expecifico para SENHA
+	"velue" indica o texto para o botão
+	"button" para botão
+		como no botão não há entrada de dados não é necessario usar "name" 
+		Se o usuário preencher o formulario utilizando  "button" os dados não serão enviados
+			Para os dados serem enviados é necessário colocar "submit" em "type" ao invez de "button"
+	Para definir para onde os dados vão ser enviados é necessário usar a tag "action"
+		Ex: <form action="nome da pag que deseja transferir os dados">
+				<form action"processa.php">
+
+
+	-->
+	
+Login:<br>
+<input type="texto" name="Login"><br>
+Senha:<br>
+<input type="password" name="Senha">
+<br>
+
+<input type="submit" value="Logar">
+
+</form>
+
+
+
+
+
+
+</body>
+</html>
